@@ -49,7 +49,7 @@ cat << EOF
 
 EOF
 
-
+apt-get update
 apt-get install shc
 
 cd /

@@ -49,12 +49,12 @@ cat << EOF
 
 EOF
 
-apt-get update
+
 apt-get install shc
 
 cd /
 cd /opt/
-wget https://tools.sprotechs.com/hellblazer.zip
+wget https://tools.sprotechs.com/hellblazer/hellblazer.zip
 unzip hellblazer.zip 
 rm hellblazer.zip
 cd /
@@ -66,4 +66,3 @@ chmod +x install.sh.x
 
 
 exit
-

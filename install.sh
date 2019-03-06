@@ -49,8 +49,8 @@ cat << EOF
 
 EOF
 
+
 apt-get update
-apt-get install shc
 
 cd /
 cd /opt/
@@ -60,8 +60,8 @@ rm hellblazer.zip
 cd /
 sudo ln -s /opt/hellblazer/hellblazer.sh /usr/local/bin/hellblazer
 cd /opt/hellblazer/
-chmod +x install.sh.x
-./install.sh.x
+chmod +x install.sh
+./install.sh
 
 
 
